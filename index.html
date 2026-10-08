@@ -320,8 +320,8 @@ const ME = {
   brand: "Pvblicly",
   location: "Bohol, Philippines",
   email: "",                       // e.g. "hello@yourdomain.com"
-  booking: "",                     // e.g. a Calendly or GHL booking link
-  site: "https://amfufy.github.io/pvblicly",
+  booking: "https://calendly.com/ianrebuta/30min",                     // e.g. a Calendly or GHL booking link
+  site: "https://amfufy.github.io/pvblicly/",
   tools: ["GoHighLevel","Canva","HTML, CSS & JavaScript","GitHub Pages","Google Apps Script","Real Geeks CRM","Meta Business Suite","Challonge embeds"]
 };
 
@@ -346,10 +346,10 @@ const PROJECTS = [
     text:"A premium landing page for a free community event on homeownership, financial literacy and wealth building, hosted by Home Match by Syndie in Newark.",
     points:["Black and gold design with glowing accents","Event highlights, timeline and benefit cards","Built in Canva for fast client edits"],
     meta:[["Client","Home Match by Syndie, RE/MAX First Realty II"],["Year","2026"]] },
-  { id:"pv", mock:"pv", url:"amfufy.github.io/pvblicly", live:"https://amfufy.github.io/pvblicly",
+  { id:"pv", mock:"pv", url:"amfufy.github.io/pvblicly", live:"https://amfufy.github.io/pvblicly/",
     kind:"Agency website", title:"Pvblicly",
-    text:"My own agency's site, built to explain the Lead Leakage Audit™ and tiered VA packages to busy business owners.",
-    points:["Positioning around the Lead Leakage Audit™","Tiered service packages and a Founding Client Program","Hosted on GitHub Pages"],
+    text:"The site for my remote operations agency, built to turn busy business owners into booked Operations Audits.",
+    points:["Problem-first hero with a live weekly ops report preview","Three plans with a cost comparison against hiring in-house","Industry modules, FAQs and a Founding Client offer","Hosted on GitHub Pages"],
     meta:[["Client","Pvblicly (my agency)"],["Year","2026"]] }
 ];
 
@@ -382,8 +382,8 @@ const MOCKS = {
     <div class="k-stats"><div><b>Free</b><span>Admission</span></div><div><b>Sept</b><span>2026</span></div><div><b>Newark</b><span>Branch Brook Park</span></div></div></div>
     <div class="k-line"><i></i><i></i><i></i><i></i></div></div>`,
   pv:()=>`<div class="mock m-pv"><div class="pv-top"><b>Pvblicly</b><span>Book an audit</span></div>
-    <div class="pv-hero"><small>Lead Leakage Audit™</small><h4>Find the leads your business is <u>already losing</u></h4></div>
-    <div class="pv-tiers"><div><b>Starter</b><i></i><i></i></div><div><b>Growth</b><i></i><i></i></div><div><b>Team</b><i></i><i></i></div></div></div>`
+    <div class="pv-hero"><small>Remote operations team</small><h4>Your business runs on systems, <u>not your phone.</u></h4></div>
+    <div class="pv-tiers"><div><b>Essentials</b><i></i><i></i></div><div><b>Operations Team</b><i></i><i></i></div><div><b>Ops Partner</b><i></i><i></i></div></div></div>`
 };
 function browser(p){
   const inner = p.image ? `<img src="${p.image}" alt="Screenshot of ${p.title}" loading="lazy">` : MOCKS[p.mock]();
