@@ -3,56 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ian Vincent Rebuta — Landing Pages & Websites | Pvblicly</title>
-<meta name="description" content="Landing pages and websites designed and built by Ian Vincent Rebuta of Pvblicly.">
-<meta property="og:title" content="Ian Vincent Rebuta — Portfolio">
+<title>Ian Vincent Rebuta — Operations Executive Assistant</title>
+<meta name="description" content="Ian Vincent Rebuta, Operations Executive Assistant. Six years supporting US companies across operations, quality assurance, customer experience and automation.">
+<meta property="og:title" content="Ian Vincent Rebuta — Operations Executive Assistant">
+<meta property="og:description" content="Operations, QA and systems support for busy executives. Six years with US companies.">
 <meta property="og:image" content="https://amfufy.github.io/Ian-Vincent-Rebuta-Portfolio/photo.jpg">
 <link rel="icon" href="photo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Cormorant+Garamond:ital,wght@1,500&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#EFEDE6; --surface:#FFFFFF; --ink:#16163A; --muted:#55577A; --line:rgba(22,22,58,.14);
-  --cobalt:#2B3FE0; --cobalt-deep:#1C2AA8; --sun:#FFC542; --mist:#DADCF5;
+  --cobalt:#2B3FE0; --cobalt-deep:#1C2AA8; --sun:#FFC542; --mist:#DADCF5; --ok:#1F9D6B;
   --sans:"Bricolage Grotesque","Avenir Next","Segoe UI",system-ui,sans-serif;
   box-sizing:border-box;
-  padding-top:env(safe-area-inset-top,0px);
-  padding-bottom:env(safe-area-inset-bottom,0px);
 }
 @media (prefers-color-scheme:dark){
-  :root:not([data-theme="light"]){--bg:#10112A;--surface:#1A1C3D;--ink:#EEEDF7;--muted:#A6A8CC;--line:rgba(238,237,247,.14);--cobalt:#5D6CFF;--mist:#2A2D5C}
+  :root:not([data-theme="light"]){--bg:#10112A;--surface:#1A1C3D;--ink:#EEEDF7;--muted:#A6A8CC;--line:rgba(238,237,247,.14);--cobalt:#5D6CFF;--mist:#2A2D5C;--ok:#3DD69B}
 }
-:root[data-theme="dark"]{--bg:#10112A;--surface:#1A1C3D;--ink:#EEEDF7;--muted:#A6A8CC;--line:rgba(238,237,247,.14);--cobalt:#5D6CFF;--mist:#2A2D5C}
+:root[data-theme="dark"]{--bg:#10112A;--surface:#1A1C3D;--ink:#EEEDF7;--muted:#A6A8CC;--line:rgba(238,237,247,.14);--cobalt:#5D6CFF;--mist:#2A2D5C;--ok:#3DD69B}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:1.0625rem;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit}
 img{max-width:100%;display:block}
 :focus-visible{outline:2px solid var(--sun);outline-offset:3px;border-radius:6px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 clamp(16px,4vw,40px)}
 
-/* ---------- header ---------- */
-.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
-  background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--line)}
+/* header */
+.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:color-mix(in srgb,var(--bg) 82%,transparent);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
-.brand{font-weight:700;font-size:1.05rem;letter-spacing:-.01em;text-decoration:none;display:flex;align-items:center;gap:10px}
-.brand i{width:22px;height:22px;border-radius:6px;background:var(--cobalt);display:grid;place-items:center;color:#fff;font-style:normal;font-size:.8rem}
+.brand{font-weight:700;font-size:1.05rem;letter-spacing:-.01em;text-decoration:none;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.brand img{width:30px;height:30px;border-radius:50%;object-fit:cover}
 .top nav{display:flex;gap:4px}
 .top nav a{text-decoration:none;padding:8px 14px;border-radius:999px;color:var(--muted);font-weight:500}
 .top nav a:hover{color:var(--ink);background:var(--mist)}
-@media (max-width:640px){.top nav a:not(.cta-s){display:none}}
+@media (max-width:760px){.top nav a:not(.cta-s){display:none}}
 .cta-s{background:var(--ink)!important;color:var(--bg)!important}
 
-/* ---------- hero ---------- */
+/* hero */
 .hero{background:var(--cobalt);color:#F4F3FF;overflow:hidden;position:relative}
-.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;min-height:min(86vh,760px);padding-top:56px;padding-bottom:64px}
-.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);line-height:.98;letter-spacing:-.035em;font-weight:750;margin:0;font-variation-settings:"wdth" 85}
-.hero .lead{font-size:clamp(1.1rem,1.8vw,1.3rem);max-width:34ch;color:#D9DCFF;margin:22px 0 32px}
-.hero .who{display:flex;align-items:center;gap:18px;margin-bottom:30px;color:#D9DCFF;line-height:1.3}
+.hero .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;min-height:min(86vh,760px);padding-top:56px;padding-bottom:64px;position:relative}
+.hero .who{display:flex;align-items:center;gap:18px;margin-bottom:28px;color:#D9DCFF;line-height:1.3}
 .hero .who b{display:block;color:#fff;font-weight:700;font-size:clamp(1.35rem,2.4vw,1.75rem);letter-spacing:-.015em}
 .avatar{width:clamp(76px,9vw,96px);height:clamp(76px,9vw,96px);border-radius:50%;object-fit:cover;flex:none;border:3px solid var(--sun);box-shadow:0 12px 28px rgba(0,0,0,.28);background:var(--sun)}
-.brand img{width:30px;height:30px;border-radius:50%;object-fit:cover}
+.hero h1{font-size:clamp(2.4rem,5.6vw,4.4rem);line-height:1;letter-spacing:-.035em;font-weight:750;margin:0;font-variation-settings:"wdth" 85}
+.hero .lead{font-size:clamp(1.1rem,1.8vw,1.28rem);max-width:40ch;color:#D9DCFF;margin:22px 0 28px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 30px;padding:0;list-style:none}
+.chips li{padding:6px 14px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);font-size:.95rem;font-weight:500}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid transparent;transition:transform .25s,background .25s}
 .btn:hover{transform:translateY(-2px)}
@@ -61,71 +61,98 @@ img{max-width:100%;display:block}
 .btn.ink{background:var(--ink);color:var(--bg)}
 .btn.out{border-color:var(--line);color:var(--ink)}
 .hero .grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.07) 1px,transparent 1px);background-size:48px 48px;mask-image:radial-gradient(70% 70% at 70% 50%,#000,transparent);pointer-events:none}
+@media (max-width:900px){.hero .wrap{grid-template-columns:1fr;min-height:auto}}
 
-/* fan of browser windows */
-.fan{position:relative;height:clamp(320px,42vw,480px)}
-.fan .browser{position:absolute;width:82%;left:9%;top:8%;transition:transform 1s cubic-bezier(.2,.8,.2,1),opacity 1s,filter 1s;cursor:pointer}
-.fan .browser[data-pos="0"]{transform:translate(0,0) rotate(-2deg);z-index:5}
-.fan .browser[data-pos="1"]{transform:translate(9%,-7%) rotate(4deg) scale(.95);z-index:4;filter:brightness(.92)}
-.fan .browser[data-pos="2"]{transform:translate(-9%,-11%) rotate(-7deg) scale(.9);z-index:3;filter:brightness(.85)}
-.fan .browser[data-pos="3"]{transform:translate(4%,-15%) rotate(2deg) scale(.85);z-index:2;opacity:.7;filter:brightness(.8)}
-.fan .browser[data-pos="4"]{transform:translate(0,-18%) rotate(0) scale(.8);z-index:1;opacity:0}
-.fan .browser.leave{transform:translate(-30%,30%) rotate(-14deg) scale(.9)!important;opacity:0!important;z-index:6}
-.fan-tag{position:absolute;left:9%;bottom:0;z-index:8;background:var(--sun);color:#1B1B3A;font-weight:600;padding:8px 14px;border-radius:999px;font-size:.95rem;box-shadow:0 10px 24px rgba(0,0,0,.25);transition:opacity .4s}
-@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;min-height:auto}.fan{height:clamp(260px,70vw,420px)}}
+/* hero report card */
+.report{background:#fff;color:#16163A;border-radius:20px;box-shadow:0 40px 80px -30px rgba(10,12,50,.6);overflow:hidden;transform:rotate(1.2deg)}
+.report-h{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;background:#F1F1F7;border-bottom:1px solid #E2E2EA;font-size:.92rem}
+.report-h b{font-size:1rem}
+.report-h span{color:#55577A}
+.stats{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid #E8E8F0}
+.stats div{padding:18px 22px;border-right:1px solid #E8E8F0;border-top:1px solid #E8E8F0}
+.stats div:nth-child(2n){border-right:0}
+.stats div:nth-child(-n+2){border-top:0}
+.stats b{display:block;font-size:clamp(1.7rem,3vw,2.2rem);line-height:1;letter-spacing:-.03em;color:#2B3FE0;font-weight:750}
+.stats span{display:block;margin-top:6px;font-size:.9rem;color:#55577A;line-height:1.35}
+.checks{list-style:none;margin:0;padding:14px 22px 20px;display:grid;gap:10px;font-size:.98rem}
+.checks li{display:flex;gap:12px;align-items:center}
+.checks i{width:22px;height:22px;border-radius:50%;background:#1F9D6B;flex:none;display:grid;place-items:center}
+.checks i::after{content:"";width:9px;height:5px;border:2px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translate(1px,-1px)}
+.checks li.todo i{background:#fff;border:2px solid #C9CBE0}
+.checks li.todo i::after{display:none}
+.checks small{margin-left:auto;color:#8A8CA8;font-size:.85rem;white-space:nowrap}
+.report-cap{font-size:.85rem;color:#D9DCFF;margin-top:14px;text-align:center}
+@media (max-width:900px){.report{transform:none}}
 
-/* ---------- browser frame + mockups ---------- */
-.browser{border-radius:12px;background:#fff;box-shadow:0 30px 60px -20px rgba(10,12,50,.5),0 0 0 1px rgba(10,12,50,.08);overflow:hidden}
+/* sections */
+section{padding:clamp(72px,10vw,120px) 0}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end;margin-bottom:56px}
+.sec-head h2{font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1;letter-spacing:-.03em;margin:0;font-weight:750;font-variation-settings:"wdth" 88}
+.sec-head p{margin:0;color:var(--muted);max-width:46ch;font-size:1.15rem}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr;margin-bottom:36px}}
+
+/* capabilities */
+.caps{background:var(--surface)}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));border-top:1px solid var(--line)}
+.svc div{padding:28px 28px 28px 0;border-bottom:1px solid var(--line)}
+.svc h3{margin:0 0 8px;font-size:1.3rem;letter-spacing:-.015em;font-weight:650;display:flex;gap:12px;align-items:baseline}
+.svc h3 em{font-style:normal;color:var(--cobalt);font-size:.95rem;font-weight:700;min-width:1.6em}
+.svc p{margin:0;color:var(--muted)}
+
+/* experience */
+.exp{display:grid;gap:0;border-top:1px solid var(--line)}
+.job{display:grid;grid-template-columns:220px 1fr;gap:clamp(16px,4vw,48px);padding:30px 0;border-bottom:1px solid var(--line)}
+.job .when{color:var(--muted);font-weight:500}
+.job .when b{display:block;color:var(--ink);font-weight:650;margin-bottom:2px}
+.job h3{margin:0 0 6px;font-size:clamp(1.25rem,2.2vw,1.5rem);letter-spacing:-.02em;font-weight:700}
+.job ul{margin:10px 0 0;padding:0;list-style:none;display:grid;gap:8px;color:var(--muted);max-width:68ch}
+.job li{position:relative;padding-left:22px}
+.job li::before{content:"";position:absolute;left:0;top:.66em;width:10px;height:2px;background:var(--sun)}
+.job li strong{color:var(--ink);font-weight:600}
+@media (max-width:760px){.job{grid-template-columns:1fr;gap:8px}}
+
+/* case studies */
+.case{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(28px,5vw,64px);align-items:center;padding:44px 0;border-top:1px solid var(--line)}
+.case:last-child{border-bottom:1px solid var(--line)}
+.case.flip .shot{order:2}
+.case .shot .browser{transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.case:hover .shot .browser{transform:translateY(-6px) rotate(-.6deg)}
+.case h3{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.05;letter-spacing:-.025em;margin:0 0 12px;font-weight:700}
+.case .kind{color:var(--cobalt);font-weight:600;margin:0 0 8px}
+.case p{margin:0 0 18px;color:var(--muted);max-width:52ch}
+.case ul{margin:0 0 22px;padding:0;list-style:none;display:grid;gap:8px}
+.case li{position:relative;padding-left:22px}
+.case li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:2px;background:var(--sun)}
+.case dl{display:flex;flex-wrap:wrap;gap:8px 28px;margin:0 0 24px;font-size:.98rem}
+.case dt{color:var(--muted)}.case dd{margin:0;font-weight:600}
+@media (max-width:860px){.case{grid-template-columns:1fr}.case.flip .shot{order:0}}
+
+/* browser frame + mockups */
+.browser{border-radius:12px;background:#fff;box-shadow:0 30px 60px -20px rgba(10,12,50,.4),0 0 0 1px rgba(10,12,50,.08);overflow:hidden}
 .chrome{display:flex;align-items:center;gap:6px;height:30px;padding:0 12px;background:#F1F1F5;border-bottom:1px solid #E2E2EA}
 .chrome i{width:9px;height:9px;border-radius:50%;background:#D8D8E2}
 .chrome i:nth-child(1){background:#FF6B5E}.chrome i:nth-child(2){background:#FFBE2F}.chrome i:nth-child(3){background:#2BC840}
 .chrome span{margin-left:10px;flex:1;height:18px;border-radius:9px;background:#fff;font-size:11px;line-height:18px;padding:0 10px;color:#7A7C98;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .screen{position:relative;aspect-ratio:16/10;overflow:hidden;container-type:inline-size}
-.screen img{width:100%;height:100%;object-fit:cover;object-position:top}
 .mock{position:absolute;inset:0;font-family:var(--sans)}
 
-/* Happy Hobby */
-.m-hh{background:#FFF8EC;color:#1E1A3A}
-.hh-top{display:flex;align-items:center;gap:2.5cqw;padding:2.2cqw 3cqw;background:#1E1A3A;color:#fff}
-.hh-logo{font-weight:800;font-size:2.6cqw;white-space:nowrap}.hh-logo b{color:#FFB627}
-.hh-search{flex:1;height:3.6cqw;border-radius:2cqw;background:rgba(255,255,255,.14);font-size:1.6cqw;line-height:3.6cqw;padding:0 2cqw;color:#C9C6E6}
-.hh-cart{position:relative;width:4cqw;height:4cqw}
-.hh-cart svg{width:100%;height:100%}
-.hh-badge{position:absolute;top:-1cqw;right:-1.2cqw;min-width:2.6cqw;height:2.6cqw;border-radius:2cqw;background:#FF4D6D;font-size:1.5cqw;display:grid;place-items:center;font-weight:700;animation:badge 4s infinite}
-@keyframes badge{0%,62%{transform:scale(1)}68%{transform:scale(1.5)}76%,100%{transform:scale(1)}}
-.hh-hero{display:flex;justify-content:space-between;align-items:center;padding:4cqw 4cqw 2cqw}
-.hh-hero h4{margin:0;font-size:5.4cqw;line-height:1;letter-spacing:-.03em;font-weight:800}
-.hh-hero p{margin:1cqw 0 0;font-size:1.8cqw;color:#5D5880}
-.hh-hero .pill{background:#FF4D6D;color:#fff;font-weight:700;font-size:1.8cqw;padding:1.4cqw 3cqw;border-radius:3cqw}
-.hh-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2cqw;padding:1cqw 4cqw}
-.hh-tile{background:#fff;border-radius:1.6cqw;padding:1.6cqw;box-shadow:0 .6cqw 1.6cqw rgba(30,26,58,.08)}
-.hh-img{aspect-ratio:1.2;border-radius:1cqw;display:grid;place-items:center}
-.hh-img span{width:50%;aspect-ratio:1;border-radius:50%;border:1.2cqw solid rgba(255,255,255,.85);border-top-color:transparent;animation:spin 1.6s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.hh-tile b{display:block;height:1.3cqw;width:80%;background:#E6E2F3;border-radius:1cqw;margin-top:1.2cqw}
-.hh-tile em{display:block;height:1.3cqw;width:40%;background:#FFB627;border-radius:1cqw;margin-top:.8cqw}
-.hh-ad{position:absolute;left:4cqw;right:4cqw;bottom:2.4cqw;height:5cqw;border:.25cqw dashed #B9B3D6;border-radius:1.2cqw;display:grid;place-items:center;font-size:1.7cqw;color:#8C86AD}
-.hh-fly{position:absolute;width:2.6cqw;height:2.6cqw;border-radius:50%;background:#FF4D6D;left:17cqw;top:36cqw;animation:fly 4s cubic-bezier(.5,0,.6,1) infinite;opacity:0}
-@keyframes fly{0%,30%{opacity:0;transform:translate(0,0) scale(1)}34%{opacity:1}64%{opacity:1;transform:translate(70cqw,-33cqw) scale(.5)}68%,100%{opacity:0;transform:translate(70cqw,-33cqw) scale(.3)}}
+/* QA scorecard mock */
+.m-qa{background:#F7F8FC;color:#16163A;padding:4cqw}
+.qa-h{display:flex;justify-content:space-between;align-items:center}
+.qa-h b{font-size:3cqw;letter-spacing:-.02em}
+.qa-h span{background:#E4F6EE;color:#1F9D6B;font-weight:700;font-size:1.8cqw;padding:.8cqw 2cqw;border-radius:3cqw}
+.qa-rows{margin-top:3cqw;display:grid;gap:1.6cqw}
+.qa-row{display:grid;grid-template-columns:30cqw 1fr 8cqw;gap:2cqw;align-items:center;font-size:1.8cqw;color:#55577A}
+.qa-bar{height:1.8cqw;border-radius:2cqw;background:#E3E4F0;overflow:hidden}
+.qa-bar i{display:block;height:100%;border-radius:2cqw;background:#2B3FE0;animation:grow 2.4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{width:0}}
+.qa-row b{color:#16163A;text-align:right}
+.qa-foot{position:absolute;left:4cqw;right:4cqw;bottom:4cqw;display:grid;grid-template-columns:repeat(3,1fr);gap:2cqw}
+.qa-foot div{background:#fff;border:.2cqw solid #E3E4F0;border-radius:1.6cqw;padding:1.8cqw 2cqw}
+.qa-foot b{display:block;font-size:3.4cqw;color:#2B3FE0;letter-spacing:-.03em}
+.qa-foot span{font-size:1.6cqw;color:#55577A}
 
-/* Wedding */
-.m-wed{background:radial-gradient(120% 90% at 50% 25%,#4B3657,#2A1F33 60%,#1B1322);display:grid;place-items:center}
-.m-wed .st{position:absolute;width:.5cqw;height:.5cqw;border-radius:50%;background:#fff;animation:tw 2.5s ease-in-out infinite}
-@keyframes tw{50%{opacity:.2}}
-.w-from{position:absolute;top:7cqw;width:100%;text-align:center;font-family:"Pinyon Script",cursive;color:#F1D9A6;font-size:5cqw}
-.w-env{position:relative;width:42cqw;aspect-ratio:1.5;margin-top:6cqw;perspective:60cqw}
-.w-back{position:absolute;inset:0;background:#CFA19B;border-radius:.6cqw}
-.w-letter{position:absolute;left:6%;right:6%;top:8%;height:84%;background:#FFFBF8;border-radius:.4cqw;animation:letter 6s ease-in-out infinite;display:grid;place-items:start center;padding-top:3cqw;font-family:"Pinyon Script",cursive;color:#B08A3A;font-size:4cqw}
-@keyframes letter{0%,35%{transform:translateY(0)}50%,85%{transform:translateY(-55%)}100%{transform:translateY(0)}}
-.w-front{position:absolute;inset:0;z-index:3}
-.w-flap{position:absolute;left:0;right:0;top:0;height:60%;transform-origin:top;z-index:4;animation:flap 6s ease-in-out infinite}
-@keyframes flap{0%,15%{transform:rotateX(0);z-index:4}30%{transform:rotateX(180deg);z-index:1}88%{transform:rotateX(180deg);z-index:1}100%{transform:rotateX(0);z-index:4}}
-.w-seal{position:absolute;left:50%;top:60%;width:10cqw;height:10cqw;transform:translate(-50%,-50%);z-index:5;border-radius:50%;background:radial-gradient(circle at 35% 30%,#A9424F,#6B2232);
-  display:grid;place-items:center;color:#F2D79B;font-family:"Pinyon Script",cursive;font-size:4cqw;animation:seal 6s infinite}
-@keyframes seal{0%,10%{opacity:1;transform:translate(-50%,-50%) scale(1)}16%,90%{opacity:0;transform:translate(-50%,-50%) scale(1.4)}100%{opacity:1;transform:translate(-50%,-50%) scale(1)}}
-.w-hint{position:absolute;bottom:6cqw;width:100%;text-align:center;color:#D9C2C9;font-family:"Cormorant Garamond",serif;font-style:italic;font-size:2.2cqw}
-
-/* Jeep Invasion */
+/* Jeep */
 .m-jeep{background:linear-gradient(180deg,#F7D7A6 0%,#F3B98A 38%,#9FB5C9 39%,#E9EEF2 100%)}
 .m-jeep svg.mt{position:absolute;left:0;right:0;top:12cqw;width:100%;height:auto}
 .j-head{position:absolute;left:4cqw;top:4cqw;color:#1D2A33}
@@ -151,14 +178,9 @@ img{max-width:100%;display:block}
 @keyframes sheen{to{background-position:-250% 0}}
 .k-wrap p{font-size:1.9cqw;color:#CDBF9B;max-width:48cqw;margin:1.4cqw 0 0}
 .k-stats{display:flex;gap:2cqw;margin-top:3cqw}
-.k-stats div{flex:1;border:.2cqw solid rgba(201,165,92,.5);border-radius:1.4cqw;padding:1.6cqw 2cqw;box-shadow:0 0 3cqw rgba(201,165,92,.15) inset}
+.k-stats div{flex:1;border:.2cqw solid rgba(201,165,92,.5);border-radius:1.4cqw;padding:1.6cqw 2cqw}
 .k-stats b{display:block;font-size:3cqw;color:#F8E3A6}
 .k-stats span{font-size:1.6cqw;color:#CDBF9B}
-.k-line{position:absolute;left:5cqw;right:5cqw;bottom:6cqw;height:.2cqw;background:rgba(201,165,92,.35)}
-.k-line i{position:absolute;top:-1cqw;width:2.2cqw;height:2.2cqw;border-radius:50%;background:#C9A55C;box-shadow:0 0 2cqw #C9A55C}
-.k-line i:nth-child(1){left:0}.k-line i:nth-child(2){left:33%}.k-line i:nth-child(3){left:66%}.k-line i:nth-child(4){right:0}
-.k-glow{position:absolute;width:30cqw;height:30cqw;border-radius:50%;right:-6cqw;top:-8cqw;background:radial-gradient(circle,rgba(248,227,166,.35),transparent 65%);animation:pulse 3.5s ease-in-out infinite}
-@keyframes pulse{50%{transform:scale(1.15);opacity:.6}}
 
 /* Pvblicly */
 .m-pv{background:#F6F6FB;color:#14142B}
@@ -177,34 +199,20 @@ img{max-width:100%;display:block}
 .pv-tiers i{display:block;height:1cqw;border-radius:1cqw;background:currentColor;opacity:.2;margin-top:1cqw}
 .pv-tiers i+i{width:70%}
 
-/* ---------- sections ---------- */
-section{padding:clamp(72px,10vw,120px) 0}
-.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end;margin-bottom:56px}
-.sec-head h2{font-size:clamp(2.2rem,4.8vw,3.6rem);line-height:1;letter-spacing:-.03em;margin:0;font-weight:750;font-variation-settings:"wdth" 88}
-.sec-head p{margin:0;color:var(--muted);max-width:44ch;font-size:1.15rem}
-@media (max-width:760px){.sec-head{grid-template-columns:1fr}}
-
-.case{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(28px,5vw,64px);align-items:center;padding:44px 0;border-top:1px solid var(--line)}
-.case:last-child{border-bottom:1px solid var(--line)}
-.case.flip .shot{order:2}
-.case .shot .browser{transition:transform .6s cubic-bezier(.2,.8,.2,1)}
-.case:hover .shot .browser{transform:translateY(-6px) rotate(-.6deg)}
-.case h3{font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.05;letter-spacing:-.025em;margin:0 0 12px;font-weight:700}
-.case .kind{color:var(--cobalt);font-weight:600;margin:0 0 8px}
-.case p{margin:0 0 18px;color:var(--muted);max-width:52ch}
-.case ul{margin:0 0 22px;padding:0;list-style:none;display:grid;gap:8px}
-.case li{position:relative;padding-left:22px}
-.case li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:2px;background:var(--sun)}
-.case dl{display:flex;flex-wrap:wrap;gap:8px 28px;margin:0 0 24px;font-size:.98rem}
-.case dt{color:var(--muted)}.case dd{margin:0;font-weight:600}
-@media (max-width:860px){.case{grid-template-columns:1fr}.case.flip .shot{order:0}}
-
-/* services */
-.services{background:var(--surface)}
-.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));border-top:1px solid var(--line)}
-.svc div{padding:28px 28px 28px 0;border-bottom:1px solid var(--line)}
-.svc h3{margin:0 0 8px;font-size:1.35rem;letter-spacing:-.015em;font-weight:650}
-.svc p{margin:0;color:var(--muted)}
+/* Happy Hobby */
+.m-hh{background:#FFF8EC;color:#1E1A3A}
+.hh-top{display:flex;align-items:center;gap:2.5cqw;padding:2.2cqw 3cqw;background:#1E1A3A;color:#fff}
+.hh-logo{font-weight:800;font-size:2.6cqw;white-space:nowrap}.hh-logo b{color:#FFB627}
+.hh-search{flex:1;height:3.6cqw;border-radius:2cqw;background:rgba(255,255,255,.14);font-size:1.6cqw;line-height:3.6cqw;padding:0 2cqw;color:#C9C6E6}
+.hh-hero{display:flex;justify-content:space-between;align-items:center;padding:4cqw 4cqw 2cqw}
+.hh-hero h4{margin:0;font-size:5.4cqw;line-height:1;letter-spacing:-.03em;font-weight:800}
+.hh-hero p{margin:1cqw 0 0;font-size:1.8cqw;color:#5D5880}
+.hh-hero .pill{background:#FF4D6D;color:#fff;font-weight:700;font-size:1.8cqw;padding:1.4cqw 3cqw;border-radius:3cqw}
+.hh-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2cqw;padding:1cqw 4cqw}
+.hh-tile{background:#fff;border-radius:1.6cqw;padding:1.6cqw;box-shadow:0 .6cqw 1.6cqw rgba(30,26,58,.08)}
+.hh-img{aspect-ratio:1.2;border-radius:1cqw}
+.hh-tile b{display:block;height:1.3cqw;width:80%;background:#E6E2F3;border-radius:1cqw;margin-top:1.2cqw}
+.hh-tile em{display:block;height:1.3cqw;width:40%;background:#FFB627;border-radius:1cqw;margin-top:.8cqw}
 
 /* process */
 .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:18px;counter-reset:s}
@@ -217,13 +225,15 @@ section{padding:clamp(72px,10vw,120px) 0}
 .step.qa::before{background:var(--sun);color:#1B1B3A}
 
 /* tools */
-.tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
-.tools span{padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-weight:500}
+.toolgroups{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:28px;margin-top:56px}
+.toolgroups h3{margin:0 0 12px;font-size:1rem;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.tools{display:flex;flex-wrap:wrap;gap:8px}
+.tools span{padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-weight:500;font-size:.98rem}
 
 /* contact */
 .contact{background:var(--ink);color:var(--bg);text-align:center}
-.contact h2{font-size:clamp(2.4rem,6vw,4.6rem);line-height:.98;letter-spacing:-.035em;margin:0 auto;max-width:16ch;font-weight:750;font-variation-settings:"wdth" 85}
-.contact p{color:color-mix(in srgb,var(--bg) 70%,transparent);max-width:46ch;margin:20px auto 32px;font-size:1.15rem}
+.contact h2{font-size:clamp(2.2rem,5.6vw,4.2rem);line-height:1;letter-spacing:-.035em;margin:0 auto;max-width:17ch;font-weight:750;font-variation-settings:"wdth" 85}
+.contact p{color:color-mix(in srgb,var(--bg) 70%,transparent);max-width:48ch;margin:20px auto 32px;font-size:1.15rem}
 .contact .btns{justify-content:center}
 .contact .btn.out{border-color:color-mix(in srgb,var(--bg) 35%,transparent);color:var(--bg)}
 footer{padding:28px 0 calc(28px + env(safe-area-inset-bottom,0px));color:var(--muted);font-size:.95rem}
@@ -238,8 +248,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top"><img src="photo.jpg" alt=""><span id="brandName"></span></a>
-    <nav><a href="#work">Work</a><a href="#services">Services</a><a href="#process">Process</a><a class="cta-s" href="#contact">Contact</a></nav>
+    <a class="brand" href="#top"><img src="photo.jpg" alt=""><span>Ian Vincent Rebuta</span></a>
+    <nav><a href="#support">Support</a><a href="#experience">Experience</a><a href="#work">Work</a><a class="cta-s" href="#contact">Contact</a></nav>
   </div>
 </header>
 
@@ -248,199 +258,207 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     <div class="grid-bg"></div>
     <div class="wrap">
       <div>
-        <div class="who"><img class="avatar" src="photo.jpg" alt="Photo of Ian Vincent Rebuta" width="96" height="96"><span><b id="heroName"></b><span id="heroRole"></span></span></div>
-        <h1>Landing pages and websites built to turn visitors into leads.</h1>
-        <p class="lead">From event campaigns to full marketplaces, I design, build and test pages that look good on every phone and make the next step obvious.</p>
-        <div class="btns"><a class="btn sun" href="#work">See my work</a><a class="btn line" href="#contact">Start a project</a></div>
+        <div class="who"><img class="avatar" src="photo.jpg" alt="Photo of Ian Vincent Rebuta" width="96" height="96"><span><b>Ian Vincent Rebuta</b>Operations Executive Assistant</span></div>
+        <h1>I keep the operation running so you can lead it.</h1>
+        <p class="lead">Six years with US companies across operations, quality assurance and customer experience. I run the inbox, calendar, follow-ups and reporting, and I build the systems that stop things from slipping.</p>
+        <ul class="chips"><li>Remote · works US Eastern hours</li><li>Based in Bohol, Philippines</li></ul>
+        <div class="btns"><a class="btn sun" href="#support">How I can help</a><a class="btn line" href="https://calendly.com/ianrebuta/30min" target="_blank" rel="noopener">Book a call</a></div>
       </div>
-      <div class="fan" id="fan" aria-label="Project previews"><span class="fan-tag" id="fanTag"></span></div>
+      <div>
+        <div class="report" aria-label="Career highlights">
+          <div class="report-h"><b>At a glance</b><span>2020 – today</span></div>
+          <div class="stats">
+            <div><b>6 yrs</b><span>supporting US companies</span></div>
+            <div><b>23</b><span>QA analysts led across 3 countries</span></div>
+            <div><b>97%</b><span>CSAT reached by the CX team I supported</span></div>
+            <div><b>24/7</b><span>AI concierge I built and QA'd for clients</span></div>
+          </div>
+          <ul class="checks">
+            <li><i></i>Inbox triaged and flagged<small>8:00 AM</small></li>
+            <li><i></i>Calendar confirmed, prep notes sent<small>8:30 AM</small></li>
+            <li><i></i>Leads followed up in CRM<small>11:00 AM</small></li>
+            <li class="todo"><i></i>Weekly ops report<small>Fri</small></li>
+          </ul>
+        </div>
+        <p class="report-cap">What a normal day with me looks like</p>
+      </div>
     </div>
   </section>
 
-  <section id="work">
+  <section id="support" class="caps">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="rv">What I take off your plate</h2>
+        <p class="rv">The day-to-day work that keeps a business moving, done the same way every time and written down so nothing depends on memory.</p>
+      </div>
+      <div class="svc rv">
+        <div><h3><em>01</em>Inbox & calendar</h3><p>Daily triage, replies drafted in your voice, meetings booked across time zones, and prep notes before every call.</p></div>
+        <div><h3><em>02</em>Projects & follow-through</h3><p>Tasks tracked in Monday.com, Notion or Slack, owners and deadlines chased, and meeting minutes sent the same day.</p></div>
+        <div><h3><em>03</em>SOPs & process documentation</h3><p>I write the playbook as I learn the work, so the next hire, or the next busy week, doesn't start from zero.</p></div>
+        <div><h3><em>04</em>CRM & client follow-up</h3><p>Leads logged, tagged and followed up in Salesforce, GoHighLevel or Real Geeks, with nurture sequences that run on their own.</p></div>
+        <div><h3><em>05</em>Reporting & quality checks</h3><p>Weekly reports with the numbers that matter, plus audits of calls, emails and chats against a written scorecard.</p></div>
+        <div><h3><em>06</em>Automation & AI tools</h3><p>Zapier, Google Apps Script and AI assistants set up to remove repetitive work, then tested before anyone relies on them.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 class="rv">Experience</h2>
+        <p class="rv">From the phones to leading a multi-country QA team, I've seen how operations break and how to keep them steady.</p>
+      </div>
+      <div class="exp">
+        <article class="job rv">
+          <div class="when"><b>Pvblicly</b>Current</div>
+          <div><h3>Founder, remote operations support</h3>
+            <ul>
+              <li>Run operations, campaigns and CRM work for US real estate teams and local businesses.</li>
+              <li>Handle client communication, meeting minutes, invoicing and delivery timelines end to end.</li>
+            </ul></div>
+        </article>
+        <article class="job rv">
+          <div class="when"><b>Nooro</b>Sept 2024 – May 2026</div>
+          <div><h3>Quality Assurance, Machine Learning & Social Media Specialist</h3>
+            <ul>
+              <li><strong>Rebuilt the knowledge base</strong> behind the AI call-auditing pipeline, removing incorrect AI answers. The CX team went on to hold a <strong>97% CSAT</strong>.</li>
+              <li><strong>Built an AI concierge</strong> in GoHighLevel and Google AI Studio that qualifies leads and answers guests 24/7, bringing client churn close to zero.</li>
+              <li>Audited high-stakes sales calls and escalations to find process gaps and turn them into coaching plans.</li>
+            </ul></div>
+        </article>
+        <article class="job rv">
+          <div class="when"><b>Ibex Global</b>Dec 2022 – Aug 2024</div>
+          <div><h3>Quality Assurance Supervisor, US B2B campaign</h3>
+            <ul>
+              <li><strong>Led 23 QA analysts</strong> covering agents in Jamaica, Honduras and the Philippines.</li>
+              <li>Kept quality consistent across three sites supporting one US business-to-business campaign.</li>
+            </ul></div>
+        </article>
+        <article class="job rv">
+          <div class="when"><b>Ibex Global</b>Sept 2020 – Dec 2022</div>
+          <div><h3>Senior Quality Analyst · Business Insights Analyst · QA Analyst · Customer Service</h3>
+            <ul>
+              <li>Moved from the phones (sales and retention) to QA and business insights for US payment and crypto-wallet support.</li>
+              <li>Turned customer data into recommendations to raise satisfaction on one of the largest US business-to-business campaigns.</li>
+            </ul></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="caps">
     <div class="wrap">
       <div class="sec-head">
         <h2 class="rv">Selected work</h2>
-        <p class="rv">Live sites, campaign pages and microsites for real estate teams, local businesses, events and couples.</p>
+        <p class="rv">Real projects where I owned the moving parts: the people, the timeline, the systems and the follow-up.</p>
       </div>
       <div id="cases"></div>
-    </div>
-  </section>
-
-  <section id="services" class="services">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2 class="rv">What I build</h2>
-        <p class="rv">Every page is mobile-first, fast to load and connected to wherever your leads need to go.</p>
-      </div>
-      <div class="svc rv">
-        <div><h3>Campaign & event landing pages</h3><p>One page, one goal. Built for ads, QR codes, open houses and launches.</p></div>
-        <div><h3>Business websites</h3><p>Multi-page sites with a shared design system so every page feels like the same brand.</p></div>
-        <div><h3>GoHighLevel custom pages</h3><p>Custom-coded sections, headers, carts and pop-ups inside GHL funnels and websites.</p></div>
-        <div><h3>Wedding & event microsites</h3><p>Animated invitations with countdowns, RSVP links, entourage, FAQs and music.</p></div>
-        <div><h3>Lead capture that's connected</h3><p>Forms wired to your CRM, Google Sheets or email list, with tags so follow-up starts on its own.</p></div>
-        <div><h3>Hosting & hand-off</h3><p>Launched on your domain or GitHub Pages, with simple notes so your team can edit text later.</p></div>
-      </div>
     </div>
   </section>
 
   <section id="process">
     <div class="wrap">
       <div class="sec-head">
-        <h2 class="rv">How a project runs</h2>
-        <p class="rv">My background is in call center quality assurance, so nothing goes live until it has passed a checklist.</p>
+        <h2 class="rv">How I work with an executive</h2>
+        <p class="rv">My background is quality assurance, so I check my own work before you ever see it.</p>
       </div>
       <div class="steps">
-        <div class="step rv"><h3>Audit</h3><p>I look for where your leads slip away today: unclear offers, slow pages, forms that ask too much.</p></div>
-        <div class="step rv"><h3>Structure</h3><p>We agree on the goal, the sections and the copy before any design starts.</p></div>
-        <div class="step rv"><h3>Design & build</h3><p>Mobile-first layout, your brand colors, and motion only where it helps people act.</p></div>
-        <div class="step qa rv"><h3>QA</h3><p>Every link, form and screen size checked against a written checklist, the same way I score calls.</p></div>
-        <div class="step rv"><h3>Launch</h3><p>Live on your domain, connected to your CRM, with notes so you can update it yourself.</p></div>
+        <div class="step rv"><h3>Learn your week</h3><p>I shadow how you work, what you hate doing and what can't slip.</p></div>
+        <div class="step rv"><h3>Write it down</h3><p>Every recurring task becomes a short SOP you can review and change.</p></div>
+        <div class="step rv"><h3>Take it over</h3><p>I run the inbox, calendar and follow-ups, and escalate only what needs you.</p></div>
+        <div class="step qa rv"><h3>Check it</h3><p>Work is checked against a list before it goes out, the way I used to score calls.</p></div>
+        <div class="step rv"><h3>Report weekly</h3><p>A short Friday update: what's done, what's waiting and what needs your call.</p></div>
       </div>
-      <div class="tools rv" id="tools"></div>
+      <div class="toolgroups rv" id="tools"></div>
     </div>
   </section>
 
   <section id="contact" class="contact">
     <div class="wrap">
-      <h2 class="rv">Need a page that actually brings in leads?</h2>
-      <p class="rv">Tell me what you're promoting and who it's for. I'll come back with a plan, a timeline and a price.</p>
-      <div class="btns rv" id="contactBtns"></div>
+      <h2 class="rv">Let's give you your time back.</h2>
+      <p class="rv">I'm looking for a full-time Operations Executive Assistant role with a US team. A 30-minute call is the fastest way to see if we fit.</p>
+      <div class="btns rv"><a class="btn sun" href="https://calendly.com/ianrebuta/30min" target="_blank" rel="noopener">Book a call</a><a class="btn out" href="https://amfufy.github.io/pvblicly/" target="_blank" rel="noopener">Visit Pvblicly</a></div>
     </div>
   </section>
 </main>
 
-<footer><div class="wrap"><span id="footL"></span><span>Designed and built by me, including this page.</span></div></footer>
+<footer><div class="wrap"><span id="footL"></span><span>Bohol, Philippines · Remote, US Eastern hours</span></div></footer>
 
 <script>
-/* =========================================================
-   EDIT HERE — your details and projects
-   image: add a screenshot path (e.g. "shots/happyhobby.png") to show a real screenshot
-          instead of the illustrated preview. Works once hosted on GitHub Pages.
-   ========================================================= */
-const ME = {
-  name: "Ian Vincent Rebuta",
-  role: "Web & landing page designer, Pvblicly",
-  brand: "Pvblicly",
-  location: "Bohol, Philippines",
-  email: "",                       // e.g. "hello@yourdomain.com"
-  booking: "https://calendly.com/ianrebuta/30min",                     // e.g. a Calendly or GHL booking link
-  site: "https://amfufy.github.io/pvblicly/",
-  tools: ["GoHighLevel","Canva","HTML, CSS & JavaScript","GitHub Pages","Google Apps Script","Real Geeks CRM","Meta Business Suite","Challonge embeds"]
+const TOOLS = {
+  "Workspace & communication":["Google Workspace","Microsoft Office","Slack","Calendly","Notion","Confluence","Dropbox"],
+  "Projects, CRM & support":["Monday.com","Salesforce","GoHighLevel","Real Geeks","Zendesk","Gorgias","Vonage","Mailchimp"],
+  "Automation, AI & content":["Zapier","Google Apps Script","Claude","ChatGPT","Gemini","Canva","Photoshop","CapCut"]
 };
 
 const PROJECTS = [
-  { id:"hh", mock:"hh", url:"happyhobbybhl.com", live:"https://happyhobbybhl.com",
-    kind:"Marketplace website on GoHighLevel", title:"Happy Hobby BHL",
-    text:"An online consignment marketplace for Bohol collectors and local sellers. I custom-coded the main pages on top of GoHighLevel so they share one design system.",
-    points:["Pinned header with site-wide search and an account menu","Shopping cart with a fly-to-cart animation","Email-first log-in that recognizes returning members through the CRM","Ad banners for partner businesses and live tournament standings"],
-    meta:[["Platform","GoHighLevel + custom code"],["Year","2026"]] },
-  { id:"wed", mock:"wed", url:"amfufy.github.io/elise-and-gab", live:"https://amfufy.github.io/elise-and-gab/",
-    kind:"Wedding invitation microsite", title:"Envelope-opening wedding website",
-    text:"An animated invitation site. Guests tap a wax seal, the envelope opens and the letter unrolls before the full site appears.",
-    points:["Envelope, seal-break and scroll-unroll animation","Live countdown, story timeline and entourage","Attire palette, program, FAQs and RSVP link","Built-in music box melody or the couple's own song"],
-    meta:[["Hosting","GitHub Pages"],["Year","2026"]] },
-  { id:"jeep", mock:"jeep", url:"tnsmokymtnrealty", live:"",
-    kind:"Event campaign landing pages", title:"Smoky Mountain Jeep Invasion 2026",
-    text:"A campaign for TN Smoky Mtn Realty built around a major Jeep event in the Smoky Mountains, with a landing page for each agent.",
-    points:["Individual pages for agents Theresa, Dana and Jake","Branded rubber duck QR codes that lead to the pages","Part of a campaign with a 12-month lead nurture sequence in Real Geeks"],
+  { id:"qa", mock:"qa", url:"QA scorecard · CX team",
+    kind:"Process improvement · Nooro", title:"Fixing the AI call-audit pipeline",
+    text:"The AI that scored customer calls was giving wrong answers because its knowledge base was disorganised. I restructured it and wired it into the team's workflow.",
+    points:["Rebuilt the knowledge base so the AI scored calls correctly","Turned audit results into coaching plans for each agent","The CX team held a 97% CSAT afterwards"],
+    meta:[["Role","QA & ML Specialist"],["When","2024 – 2026"]] },
+  { id:"jeep", mock:"jeep", url:"TN Smoky Mtn Realty · campaign",
+    kind:"Campaign coordination · real estate", title:"Smoky Mountain Jeep Invasion 2026",
+    text:"I coordinated a lead campaign for TN Smoky Mtn Realty around a major Jeep event, from agent pages to printed QR codes to long-term follow-up.",
+    points:["Set up a page for each agent: Theresa, Dana and Jake","Organised branded rubber-duck QR codes that led to their pages","Built a 12-month lead nurture sequence in Real Geeks CRM","Kept meeting minutes and owned the timeline with the team"],
     meta:[["Client","TN Smoky Mtn Realty, Tennessee"],["Year","2026"]] },
-  { id:"keys", mock:"keys", url:"homematchbysyndie.com", live:"",
-    kind:"Event landing page", title:"Keys to Wealth",
-    text:"A premium landing page for a free community event on homeownership, financial literacy and wealth building, hosted by Home Match by Syndie in Newark.",
-    points:["Black and gold design with glowing accents","Event highlights, timeline and benefit cards","Built in Canva for fast client edits"],
+  { id:"keys", mock:"keys", url:"Home Match by Syndie · event",
+    kind:"Event support · real estate", title:"Keys to Wealth community event",
+    text:"Event support for Home Match by Syndie: a free community event in Newark on homeownership and financial literacy.",
+    points:["Event page with the agenda, highlights and sign-up","Built in Canva so the client could edit it without me","Handled client updates and invoicing"],
     meta:[["Client","Home Match by Syndie, RE/MAX First Realty II"],["Year","2026"]] },
-  { id:"pv", mock:"pv", url:"amfufy.github.io/pvblicly", live:"https://amfufy.github.io/pvblicly/",
-    kind:"Agency website", title:"Pvblicly",
-    text:"The site for my remote operations agency, built to turn busy business owners into booked Operations Audits.",
-    points:["Problem-first hero with a live weekly ops report preview","Three plans with a cost comparison against hiring in-house","Industry modules, FAQs and a Founding Client offer","Hosted on GitHub Pages"],
-    meta:[["Client","Pvblicly (my agency)"],["Year","2026"]] }
+  { id:"hh", mock:"hh", url:"happyhobbybhl.com",
+    kind:"Business operations · e-commerce", title:"Happy Hobby BHL",
+    text:"I set up a local consignment marketplace on GoHighLevel so the whole business runs from one system: members, cart, partner ads and tournaments.",
+    points:["Member accounts and log-in connected to the CRM","Partner ad placements and live tournament standings","One system so the team updates it without a developer"],
+    meta:[["Platform","GoHighLevel"],["Year","2026"]], live:"https://happyhobbybhl.com" },
+  { id:"pv", mock:"pv", url:"amfufy.github.io/pvblicly",
+    kind:"My remote operations practice", title:"Pvblicly",
+    text:"My own practice, offering remote operations support to busy business owners, starting with an operations audit of where time and leads leak.",
+    points:["Operations audit offer with a weekly ops report","Three support plans priced against an in-house hire","Clients in US real estate and local business"],
+    meta:[["Clients","US real estate & local business"]], live:"https://amfufy.github.io/pvblicly/" }
 ];
 
-/* =========================================================
-   MOCKUPS
-   ========================================================= */
 const duck = `<svg class="j-duck" viewBox="0 0 64 56" aria-hidden="true"><path d="M8 34c0 12 10 18 26 18s26-6 26-16c0-6-4-9-10-8-2-12-10-20-20-20S14 14 16 24c-4 0-8 4-8 10z" fill="#FFD23F"/><path d="M14 22c-6-1-10 1-12 4 4 1 8 1 12-1z" fill="#FF8A1F"/><circle cx="23" cy="17" r="2.4" fill="#1D2A33"/><path d="M34 34c6 4 14 4 18 0" fill="none" stroke="#E8B21C" stroke-width="2" stroke-linecap="round"/></svg>`;
-function qr(){ let s=""; const on=[1,1,1,0,1,1,1, 1,0,1,0,0,0,1, 1,1,1,0,1,1,1, 0,1,0,1,1,0,0, 1,0,1,1,0,1,1, 1,1,0,0,1,0,1, 1,1,1,0,1,1,0]; on.forEach(v=>s+=`<i class="${v?'':'o'}"></i>`); return s; }
+function qr(){ const on=[1,1,1,0,1,1,1, 1,0,1,0,0,0,1, 1,1,1,0,1,1,1, 0,1,0,1,1,0,0, 1,0,1,1,0,1,1, 1,1,0,0,1,0,1, 1,1,1,0,1,1,0]; return on.map(v=>`<i class="${v?'':'o'}"></i>`).join(""); }
 const MOCKS = {
-  hh:()=>`<div class="mock m-hh">
-    <div class="hh-top"><span class="hh-logo">Happy Hobby <b>BHL</b></span><span class="hh-search">Search cards, Beyblades, local goods</span>
-      <span class="hh-cart"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M3 4h2l2.4 11h11L21 7H6.2"/><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/></svg><span class="hh-badge">3</span></span></div>
-    <div class="hh-hero"><div><h4>Collect. Create.<br>Compete.</h4><p>Bohol's marketplace for collectors and local makers</p></div><span class="pill">Shop now</span></div>
-    <div class="hh-grid">${["#5B5BD6","#FF4D6D","#FFB627","#2EC4B6"].map(c=>`<div class="hh-tile"><div class="hh-img" style="background:${c}"><span></span></div><b></b><em></em></div>`).join("")}</div>
-    <div class="hh-ad">Place your ad here</div><span class="hh-fly"></span></div>`,
-  wed:()=>{ let st=""; for(let i=0;i<26;i++) st+=`<i class="st" style="left:${(i*37)%100}%;top:${(i*53)%100}%;animation-delay:${(i%7)*.3}s;opacity:${.3+(i%4)*.2}"></i>`;
-    return `<div class="mock m-wed">${st}<div class="w-from">Elise &amp; Gabriel</div>
-    <div class="w-env"><div class="w-back"></div><div class="w-letter">You're invited</div>
-      <svg class="w-front" viewBox="0 0 300 200" preserveAspectRatio="none"><polygon points="0,0 154,114 0,200" fill="#E4BAB4"/><polygon points="300,0 146,114 300,200" fill="#E4BAB4"/><polygon points="0,200 150,96 300,200" fill="#EECDC8"/></svg>
-      <svg class="w-flap" viewBox="0 0 300 120" preserveAspectRatio="none"><polygon points="0,0 300,0 150,120" fill="#DDB1AB"/></svg>
-      <span class="w-seal">EG</span></div><div class="w-hint">Tap the seal to open</div></div>`; },
+  qa:()=>`<div class="mock m-qa"><div class="qa-h"><b>Call audit scorecard</b><span>CSAT 97%</span></div>
+    <div class="qa-rows">${[["Greeting & verification",96],["Accurate information",94],["Resolution",91],["Empathy & tone",97],["Compliance",99]].map(([k,v],i)=>`<div class="qa-row">${k}<span class="qa-bar"><i style="width:${v}%;animation-delay:${i*.15}s"></i></span><b>${v}%</b></div>`).join("")}</div>
+    <div class="qa-foot"><div><b>23</b><span>QA analysts led</span></div><div><b>3</b><span>countries</span></div><div><b>Weekly</b><span>coaching plans</span></div></div></div>`,
   jeep:()=>`<div class="mock m-jeep">
     <svg class="mt" viewBox="0 0 400 140" preserveAspectRatio="none" aria-hidden="true"><path d="M0 80 L60 40 L110 70 L170 20 L230 65 L290 30 L350 60 L400 35 V140 H0z" fill="#6E8BA3" opacity=".55"/><path d="M0 100 L50 70 L120 95 L180 55 L260 92 L320 66 L400 90 V140 H0z" fill="#3E5A4F"/></svg>
     <div class="j-head"><small>Smoky Mountains, Tennessee</small><h4>Smoky Mountain Jeep Invasion 2026</h4></div>
     <div class="j-agents"><span class="j-agent"><i></i>Theresa</span><span class="j-agent"><i></i>Dana</span><span class="j-agent"><i></i>Jake</span></div>
     <div class="j-qr">${duck}<span class="grid">${qr()}</span></div></div>`,
-  keys:()=>`<div class="mock m-keys"><span class="k-glow"></span><div class="k-wrap">
+  keys:()=>`<div class="mock m-keys"><div class="k-wrap">
     <small>A free community event</small><h4>Keys to Wealth</h4>
     <p>Homeownership, financial literacy and building wealth for your family</p>
-    <div class="k-stats"><div><b>Free</b><span>Admission</span></div><div><b>Sept</b><span>2026</span></div><div><b>Newark</b><span>Branch Brook Park</span></div></div></div>
-    <div class="k-line"><i></i><i></i><i></i><i></i></div></div>`,
+    <div class="k-stats"><div><b>Free</b><span>Admission</span></div><div><b>Sept</b><span>2026</span></div><div><b>Newark</b><span>Branch Brook Park</span></div></div></div></div>`,
+  hh:()=>`<div class="mock m-hh">
+    <div class="hh-top"><span class="hh-logo">Happy Hobby <b>BHL</b></span><span class="hh-search">Search cards, Beyblades, local goods</span></div>
+    <div class="hh-hero"><div><h4>Collect. Create.<br>Compete.</h4><p>Bohol's marketplace for collectors and local makers</p></div><span class="pill">Shop now</span></div>
+    <div class="hh-grid">${["#5B5BD6","#FF4D6D","#FFB627","#2EC4B6"].map(c=>`<div class="hh-tile"><div class="hh-img" style="background:${c}"></div><b></b><em></em></div>`).join("")}</div></div>`,
   pv:()=>`<div class="mock m-pv"><div class="pv-top"><b>Pvblicly</b><span>Book an audit</span></div>
     <div class="pv-hero"><small>Remote operations team</small><h4>Your business runs on systems, <u>not your phone.</u></h4></div>
     <div class="pv-tiers"><div><b>Essentials</b><i></i><i></i></div><div><b>Operations Team</b><i></i><i></i></div><div><b>Ops Partner</b><i></i><i></i></div></div></div>`
 };
-function browser(p){
-  const inner = p.image ? `<img src="${p.image}" alt="Screenshot of ${p.title}" loading="lazy">` : MOCKS[p.mock]();
-  return `<div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${p.url}</span></div><div class="screen">${inner}</div></div>`;
-}
+const browser = p => `<div class="browser"><div class="chrome"><i></i><i></i><i></i><span>${p.url}</span></div><div class="screen">${MOCKS[p.mock]()}</div></div>`;
 
-/* =========================================================
-   RENDER
-   ========================================================= */
 const $=s=>document.querySelector(s);
-$("#brandName").textContent=ME.name;
-$("#heroName").textContent=ME.name;
-$("#heroRole").textContent=ME.role;
-$("#footL").textContent=`© ${new Date().getFullYear()} ${ME.name}, ${ME.brand}. ${ME.location}.`;
-$("#tools").innerHTML=ME.tools.map(t=>`<span>${t}</span>`).join("");
-
+$("#footL").textContent=`© ${new Date().getFullYear()} Ian Vincent Rebuta`;
+$("#tools").innerHTML=Object.entries(TOOLS).map(([g,l])=>`<div><h3>${g}</h3><div class="tools">${l.map(t=>`<span>${t}</span>`).join("")}</div></div>`).join("");
 $("#cases").innerHTML=PROJECTS.map((p,i)=>`
-  <article class="case ${i%2?'flip':''}" id="case-${p.id}">
+  <article class="case ${i%2?'flip':''}">
     <div class="shot rv">${browser(p)}</div>
     <div class="rv">
       <p class="kind">${p.kind}</p><h3>${p.title}</h3><p>${p.text}</p>
       <ul>${p.points.map(x=>`<li>${x}</li>`).join("")}</ul>
       <dl>${p.meta.map(([k,v])=>`<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>
-      ${p.live?`<a class="btn ink" href="${p.live}" target="_blank" rel="noopener">Visit live site</a>`:""}
+      ${p.live?`<a class="btn ink" href="${p.live}" target="_blank" rel="noopener">See it live</a>`:""}
     </div>
   </article>`).join("");
 
-const cb=[];
-if(ME.booking) cb.push(`<a class="btn sun" href="${ME.booking}" target="_blank" rel="noopener">Book a call</a>`);
-if(ME.email) cb.push(`<a class="btn ${cb.length?'out':'sun'}" href="mailto:${ME.email}">Email me</a>`);
-cb.push(`<a class="btn ${cb.length?'out':'sun'}" href="${ME.site}" target="_blank" rel="noopener">Visit ${ME.brand}</a>`);
-$("#contactBtns").innerHTML=cb.join("");
-
-/* hero fan */
-const fan=$("#fan"), tag=$("#fanTag");
-const cards=PROJECTS.map((p,i)=>{ const d=document.createElement("div"); d.innerHTML=browser(p); const b=d.firstElementChild;
-  b.dataset.pos=i; b.dataset.title=p.title; b.tabIndex=0; b.setAttribute("role","link"); b.setAttribute("aria-label",`See ${p.title}`);
-  const go=()=>document.getElementById("case-"+p.id).scrollIntoView({behavior:"smooth"});
-  b.addEventListener("click",go); b.addEventListener("keydown",e=>{if(e.key==="Enter")go();});
-  fan.insertBefore(b,tag); return b; });
-let order=cards.slice();
-function label(){ tag.textContent=order[0].dataset.title; }
-label();
-const reduced=matchMedia("(prefers-reduced-motion: reduce)").matches;
-let paused=false; fan.addEventListener("mouseenter",()=>paused=true); fan.addEventListener("mouseleave",()=>paused=false);
-if(!reduced) setInterval(()=>{
-  if(paused||document.hidden) return;
-  const front=order.shift(); front.classList.add("leave"); tag.style.opacity=0;
-  setTimeout(()=>{ front.classList.remove("leave"); order.push(front); order.forEach((c,i)=>c.dataset.pos=i); label(); tag.style.opacity=1; },700);
-},3400);
-
-/* reveal */
-const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}}),{threshold:.15});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}}),{threshold:.12});
 document.querySelectorAll(".rv").forEach(el=>io.observe(el));
 </script>
 </body>
