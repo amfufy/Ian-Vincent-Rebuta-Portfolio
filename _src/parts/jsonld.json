@@ -1,0 +1,252 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#website",
+      "url": "https://ian-vincent-rebuta-portfolio.vercel.app/",
+      "name": "Ian Vincent Rebuta",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#profile",
+      "url": "https://ian-vincent-rebuta-portfolio.vercel.app/",
+      "name": "Ian Vincent Rebuta | Remote Operations, QA, Social Media & Web Specialist",
+      "isPartOf": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#website"
+      },
+      "mainEntity": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      },
+      "primaryImageOfPage": "https://ian-vincent-rebuta-portfolio.vercel.app/portrait.jpg",
+      "dateModified": "2026-11-20",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person",
+      "name": "Ian Vincent Rebuta",
+      "alternateName": "Ian Rebuta",
+      "url": "https://ian-vincent-rebuta-portfolio.vercel.app/",
+      "image": "https://ian-vincent-rebuta-portfolio.vercel.app/portrait.jpg",
+      "jobTitle": "Remote Operations, QA, Social Media & Web Specialist",
+      "description": "Ian Vincent Rebuta is a remote operations and quality assurance specialist, social media manager, video editor and web and AI automation builder based in Bohol, Philippines. He has six years of experience with US companies, led 23 QA analysts across three countries at Ibex Global, worked in QA and machine learning at Nooro, and founded Pvblicly, a remote operations practice.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Bohol",
+        "addressCountry": "PH"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Bohol, Philippines"
+      },
+      "knowsLanguage": "en",
+      "knowsAbout": [
+        "Business operations",
+        "Quality assurance",
+        "Call auditing",
+        "Customer experience",
+        "Standard operating procedures",
+        "CRM management",
+        "Social media management",
+        "Content calendars",
+        "Short-form video",
+        "Video editing",
+        "Motion graphics",
+        "Web design",
+        "Landing pages",
+        "AI automation",
+        "Claude",
+        "GoHighLevel",
+        "Salesforce",
+        "Real Geeks",
+        "Zapier",
+        "Google Apps Script"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Operations and QA Specialist",
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Philippines"
+        },
+        "skills": "Quality assurance, operations, social media management, video editing, web development, AI automation"
+      },
+      "worksFor": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#pvblicly"
+      },
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "Ibex Global"
+        },
+        {
+          "@type": "Organization",
+          "name": "Nooro"
+        }
+      ],
+      "sameAs": [
+        "https://github.com/amfufy",
+        "https://amfufy.github.io/pvblicly/",
+        "https://calendly.com/ianrebuta/30min"
+      ],
+      "makesOffer": {
+        "@type": "OfferCatalog",
+        "name": "Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operations & QA",
+              "description": "Call, email and chat audits against a scorecard, SOPs, weekly reports, meeting minutes and CRM follow-up.",
+              "areaServed": "US"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social media management",
+              "description": "Content calendars, captions, scheduling and posting for Facebook and Instagram pages.",
+              "areaServed": "US"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video & animation",
+              "description": "Vertical reels, brand films, explainers and animated shorts, from script to finished MP4.",
+              "areaServed": "US"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Web & AI automation",
+              "description": "Landing pages, booking pages and web apps, AI concierges and Claude skills, Zapier and Google Apps Script automations.",
+              "areaServed": "US"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#pvblicly",
+      "name": "Pvblicly",
+      "url": "https://amfufy.github.io/pvblicly/",
+      "description": "Remote operations team for busy business owners: SOPs, admin, reports, customer follow-up and social media.",
+      "founder": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#intro-video",
+      "name": "Meet Ian Vincent Rebuta in 80 seconds",
+      "description": "Ian Vincent Rebuta introduces himself: where he works from, his six years with US companies, and the remote operations role he is looking for.",
+      "thumbnailUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/intro.jpg",
+      "contentUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/intro.mp4",
+      "uploadDate": "2026-11-19T08:00:00+08:00",
+      "duration": "PT1M24S",
+      "inLanguage": "en",
+      "transcript": "Hi there, my name is Ian and I'm based in Bohol, Philippines. I work remotely and I'm comfortable with US, UK or Australian hours, including night shift. For the past six years, I've supported US companies in quality assurance, documentation and back-office operations. Right now, I'm at Nooro, where I build and test AI-assisted workflows. I restructured the knowledge base behind our AI call audits, which helped our customer experience team hold a 97% satisfaction score. Before that, I managed confidential records as a document specialist at TaskUs. And at Ibex, I led a team of 23 QA analysts across three countries. I have a strong technical foundation in Salesforce, G Suite and Monday.com. As a virtual assistant, I focus on the work that keeps a business running: task tracking and follow-ups, data entry, reports, SOPs and CRM updates. I also want to free up your time by managing your calendar, inbox and the everyday admin, so you can focus on the work only you can do. My goal is to grow into a long-term operations role with a team that values reliability, and to help the business run smoother every week. Thank you so much for the opportunity to introduce myself. I'd love to support your team.",
+      "creator": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Partner with Happy Hobby BHL (brand film)",
+      "description": "A short brand film by Ian Vincent Rebuta inviting local businesses in Bohol to advertise with Happy Hobby BHL.",
+      "thumbnailUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/happyhobby-partner.jpg",
+      "contentUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/happyhobby-partner.mp4",
+      "uploadDate": "2026-11-13T08:00:00+08:00",
+      "duration": "PT30S",
+      "creator": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Beyblade X news reel for Happy Hobby BHL",
+      "description": "A 20-second vertical news reel on new Beyblade X releases, made and posted by Ian Vincent Rebuta for Happy Hobby BHL.",
+      "thumbnailUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/bbx-news.jpg",
+      "contentUrl": "https://ian-vincent-rebuta-portfolio.vercel.app/media/bbx-news.mp4",
+      "uploadDate": "2026-11-19T08:00:00+08:00",
+      "duration": "PT20S",
+      "creator": {
+        "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Ian Vincent Rebuta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ian Vincent Rebuta is a remote operations and QA specialist, social media manager, video editor and web and AI automation builder based in Bohol, Philippines. He has six years of experience with US companies, including leading 23 QA analysts across three countries at Ibex Global and QA and machine learning work at Nooro. He also runs Pvblicly, a remote operations practice."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What services does Ian Vincent Rebuta offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four kinds of work: operations and QA (call audits, SOPs, reports, CRM follow-up), social media management (content calendars, captions, scheduling and posting), video and animation (reels, brand films and animated shorts), and web and AI automation (landing pages, web apps, AI concierges, Zapier and Google Apps Script)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Ian Vincent Rebuta work US hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. He works remotely from Bohol, Philippines (GMT+8) on US Eastern business hours, and has worked with US teams since 2020."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What kind of role is Ian Vincent Rebuta looking for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A full-time remote role or ongoing project work with a US team, in operations, social media, video or web. He is available now."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can he manage social media for several brands at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. He currently plans, writes, schedules and posts for ten Facebook and Instagram accounts across real estate, hobby retail, weddings, cabin rentals and more, from one GoKaizn planner, and makes the reels they post."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tools does Ian Vincent Rebuta use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Workspace, Slack, Notion, Monday.com, Salesforce, GoHighLevel, Real Geeks, Zendesk, GoKaizn, Meta Business Suite, Canva, CapCut, Photoshop, HTML, CSS and JavaScript, GitHub, Vercel, Claude Code, Google AI Studio, Zapier and Google Apps Script."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I hire Ian Vincent Rebuta?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book a free 30-minute call at calendly.com/ianrebuta/30min. The call covers what you need, how he would handle it and whether it is a fit."
+          }
+        }
+      ]
+    }
+  ]
+}

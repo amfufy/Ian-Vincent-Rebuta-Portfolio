@@ -1,0 +1,13 @@
+{
+  "name": "Ian Vincent Rebuta",
+  "short_name": "Ian Rebuta",
+  "description": "Remote operations, QA, social media, video and web specialist.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6EFE6",
+  "theme_color": "#F6EFE6",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

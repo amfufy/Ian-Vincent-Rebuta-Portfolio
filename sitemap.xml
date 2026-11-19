@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://ian-vincent-rebuta-portfolio.vercel.app/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/portrait.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/og.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ian-vincent-rebuta-portfolio.vercel.app/projects</loc>
+    <lastmod>2026-11-20</lastmod>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/shots/happyhobby.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/shots/etl.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/shots/wedding.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/shots/pvblicly.jpg</image:loc></image:image>
+    <image:image><image:loc>https://ian-vincent-rebuta-portfolio.vercel.app/shots/kusog.jpg</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/happyhobby-partner.jpg</video:thumbnail_loc>
+      <video:title>Partner with Happy Hobby BHL (brand film)</video:title>
+      <video:description>A short brand film by Ian Vincent Rebuta inviting local businesses in Bohol to advertise with Happy Hobby BHL.</video:description>
+      <video:content_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/happyhobby-partner.mp4</video:content_loc>
+      <video:duration>30</video:duration>
+      <video:publication_date>2026-11-13T08:00:00+08:00</video:publication_date>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/bbx-news.jpg</video:thumbnail_loc>
+      <video:title>Beyblade X news reel for Happy Hobby BHL</video:title>
+      <video:description>A 20-second vertical news reel on new Beyblade X releases, made by Ian Vincent Rebuta for Happy Hobby BHL.</video:description>
+      <video:content_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/bbx-news.mp4</video:content_loc>
+      <video:duration>20</video:duration>
+      <video:publication_date>2026-11-19T08:00:00+08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://ian-vincent-rebuta-portfolio.vercel.app/services</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+  <url>
+    <loc>https://ian-vincent-rebuta-portfolio.vercel.app/about</loc>
+    <lastmod>2026-11-20</lastmod>
+    <video:video>
+      <video:thumbnail_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/intro.jpg</video:thumbnail_loc>
+      <video:title>Meet Ian Vincent Rebuta in 80 seconds</video:title>
+      <video:description>Ian Vincent Rebuta, a remote operations and QA specialist in Bohol, Philippines, introduces his six years with US companies and the role he is looking for.</video:description>
+      <video:content_loc>https://ian-vincent-rebuta-portfolio.vercel.app/media/intro.mp4</video:content_loc>
+      <video:duration>84</video:duration>
+      <video:publication_date>2026-11-19T08:00:00+08:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://ian-vincent-rebuta-portfolio.vercel.app/contact</loc>
+    <lastmod>2026-11-20</lastmod>
+  </url>
+</urlset>

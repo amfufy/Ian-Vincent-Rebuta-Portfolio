@@ -1,0 +1,47 @@
+# Ian Vincent Rebuta
+
+> Ian Vincent Rebuta is a remote operations and quality assurance (QA) specialist, social media manager, video editor and web and AI automation builder based in Bohol, Philippines. He has six years of experience with US companies, works US Eastern hours (GMT+8 local), and is available now for a full-time remote role or ongoing project work with a US team.
+
+- Website: https://ian-vincent-rebuta-portfolio.vercel.app/
+- Book a free 30-minute call: https://calendly.com/ianrebuta/30min
+- Practice: Pvblicly, remote operations team (https://amfufy.github.io/pvblicly/)
+- GitHub: https://github.com/amfufy
+
+## Pages
+- Home: https://ian-vincent-rebuta-portfolio.vercel.app/
+- Projects: https://ian-vincent-rebuta-portfolio.vercel.app/projects
+- Services: https://ian-vincent-rebuta-portfolio.vercel.app/services
+- About (experience, intro video, toolkit): https://ian-vincent-rebuta-portfolio.vercel.app/about
+- FAQ & Contact: https://ian-vincent-rebuta-portfolio.vercel.app/contact
+
+## Services
+- Operations & QA: call, email and chat audits against a scorecard; SOPs; weekly reports; meeting minutes; CRM follow-up in Salesforce, GoHighLevel and Real Geeks.
+- Social media management: content calendars, captions, scheduling and posting for ten Facebook and Instagram accounts from one GoKaizn planner.
+- Video & animation: vertical reels, brand films, explainers and animated shorts, from script to finished MP4.
+- Web & AI automation: landing pages, booking pages and web apps; AI concierges; Claude skills; Zapier and Google Apps Script automations.
+
+## Experience
+- Pvblicly (current): founder, remote operations support for US real estate teams and local businesses; manages 10 social media pages; builds client websites.
+- Nooro (Sept 2024 – May 2026): Quality Assurance, Machine Learning & Social Media Specialist. Rebuilt the knowledge base behind the AI call-auditing pipeline; the CX team held a 97% CSAT. Built an AI concierge in GoHighLevel and Google AI Studio that qualifies leads 24/7.
+- Ibex Global (Dec 2022 – Aug 2024): Quality Assurance Supervisor on a US B2B campaign; led 23 QA analysts across Jamaica, Honduras and the Philippines.
+- Ibex Global (Sept 2020 – Dec 2022): Senior Quality Analyst, Business Insights Analyst, QA Analyst and Customer Service for US payment and crypto-wallet support.
+
+## Selected work
+- Fixing the AI call-audit pipeline (Nooro): restructured the knowledge base so the AI scored calls correctly; 97% CSAT afterwards.
+- Ten pages, one planner: social media for Happy Hobby BHL, TN Smoky Mtn Realty, Wayback Weekend, Pvblicly Weddings, Pvblicity, Patrick's Store, Home Finds PH, J and I 4 U and NeuroEase.
+- Reels: Beyblade X news (Happy Hobby BHL), cabin rental POV (TN Smoky Mtn Realty), digital invitations (Pvblicly Weddings), channel intro (J and I 4 U).
+- Brand film: Partner with Happy Hobby BHL.
+- Happy Hobby BHL marketplace on GoHighLevel: https://happyhobbybhl.com
+- Smoky Mountain Jeep Invasion 2026 lead campaign for TN Smoky Mtn Realty: agent pages, QR codes, 12-month Real Geeks nurture.
+- Lawn care websites: East Tennessee Lawns & Landscaping (https://amfufy.github.io/east-tennessee-lawns/) and Tennessee Lawn Solutions (https://amfufy.github.io/tennessee-lawn-solutions/).
+- Claude skills for daily work: social media manager, QA audit, cartoon short.
+- Kusog Fit Quest, a game-style fitness web app: https://amfufy.github.io/kusog/
+- Elise & Gabriel digital wedding invitation: https://amfufy.github.io/elise-and-gab/
+- Keys to Wealth community event page for Home Match by Syndie.
+- Pvblicly website: https://amfufy.github.io/pvblicly/
+
+## Tools
+Google Workspace, Microsoft Office, Slack, Calendly, Notion, Confluence, Dropbox, Monday.com, Salesforce, GoHighLevel, Real Geeks, Zendesk, Gorgias, Vonage, Mailchimp, GoKaizn, Meta Business Suite, Canva, CapCut, Photoshop, FFmpeg, HTML/CSS/JavaScript, GitHub, Vercel, Claude Code, Google AI Studio, Zapier, Google Apps Script, ChatGPT, Gemini.
+
+## How to hire
+Book a free 30-minute call: https://calendly.com/ianrebuta/30min
