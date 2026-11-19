@@ -735,3 +735,10 @@ html.rm .mq-track{flex-wrap:wrap;row-gap:10px}
 /* verified seal on the ID photo: white ring so it separates from the picture */
 .badge-photo .verified{width:32px;height:32px;right:-8px;bottom:-8px;padding:2px;border-radius:50%;background:var(--surface);filter:drop-shadow(0 2px 5px rgba(0,0,0,.18))}
 .prof-name .verified{width:17px;height:17px}
+
+/* phones and tablets: the badge hangs below the tools strip, never over it; centred */
+@media (max-width:1099px){.badge-wrap{padding-top:58px;justify-self:center;width:100%}.lanyard{top:4px;height:66px}}
+@media (max-width:640px){.badge-wrap{max-width:340px}}
+/* the density tune above set desktop columns globally; restore the tablet and phone grids */
+@media (max-width:1099px){.home-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.home-grid{grid-template-columns:minmax(0,1fr)}}
