@@ -11,6 +11,7 @@ SRC = ROOT / "_src" / "parts"
 SITE = "https://ian-vincent-rebuta-portfolio.vercel.app"
 BOOK = "https://calendly.com/ianrebuta/30min"
 UPDATED = "2026-11-20"
+ASSET_V = "2026-11-20b"   # bump to make browsers fetch new CSS/JS
 
 part = lambda n: (SRC / n).read_text(encoding="utf-8")
 LD = json.loads(part("jsonld.json"))["@graph"]
@@ -155,7 +156,7 @@ def head(p):
 {p.get("preload","")}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v={UPDATED}">
+<link rel="stylesheet" href="/assets/site.css?v={ASSET_V}">
 {PREPAINT}
 <script type="application/ld+json">
 {ld}
@@ -177,7 +178,7 @@ def page(p):
 {tabbar(p["key"])}
 {CHAT}
 {A11Y}
-<script src="/assets/site.js?v={UPDATED}" defer></script>
+<script src="/assets/site.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 '''
