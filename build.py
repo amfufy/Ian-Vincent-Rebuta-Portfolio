@@ -238,7 +238,7 @@ home_body = f'''
       <article class="badge" id="badge" aria-label="ID card: Ian Vincent Rebuta">
         <span class="badge-clip" aria-hidden="true"></span>
         <span class="badge-shine" aria-hidden="true"></span>
-        <a class="badge-play" href="/about#intro">{ico("play")}<span>1:33 intro</span></a>
+        <a class="badge-play" href="/about#intro">{ico("play")}<span>1:30 intro</span></a>
         <div class="badge-photo"><img src="/portrait.jpg" alt="Ian Vincent Rebuta" width="826" height="826" fetchpriority="high">{VERIFIED}</div>
         <p class="badge-hi">Hi, I'm</p>
         <h2 class="badge-name">Ian Vincent Rebuta</h2>
