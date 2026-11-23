@@ -22,7 +22,8 @@
 
 ## Experience
 - Pvblicly (current): founder, remote operations support for US real estate teams and local businesses; manages 10 social media pages; builds client websites.
-- Nooro (Sept 2024 – May 2026): Quality Assurance, Machine Learning & Social Media Specialist. Rebuilt the knowledge base behind the AI call-auditing pipeline; the CX team held a 97% CSAT. Built an AI concierge in GoHighLevel and Google AI Studio that qualifies leads 24/7.
+- 10FC (Jan 2025 – present): Quality Assurance Analyst for Nooro, Lunavia and SØREN. Audits sales, recovery and CX calls; rebuilt the knowledge base behind the AI call-auditing pipeline; the CX team held a 97% CSAT.
+- Pvblicly: built an AI concierge in GoHighLevel and Google AI Studio that answers and qualifies Airbnb guests 24/7.
 - Ibex Global (Dec 2022 – Aug 2024): Quality Assurance Supervisor on a US B2B campaign; led 23 QA analysts across Jamaica, Honduras and the Philippines.
 - Ibex Global (Sept 2020 – Dec 2022): Senior Quality Analyst, Business Insights Analyst, QA Analyst and Customer Service for US payment and crypto-wallet support.
 
