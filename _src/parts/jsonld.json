@@ -91,7 +91,7 @@
       ],
       "sameAs": [
         "https://github.com/amfufy",
-        "https://amfufy.github.io/pvblicly/",
+        "https://pvblicly.vercel.app/",
         "https://calendly.com/ianrebuta/30min"
       ],
       "makesOffer": {
@@ -141,7 +141,7 @@
       "@type": "Organization",
       "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#pvblicly",
       "name": "Pvblicly",
-      "url": "https://amfufy.github.io/pvblicly/",
+      "url": "https://pvblicly.vercel.app/",
       "description": "Remote operations team for busy business owners: SOPs, admin, reports, customer follow-up and social media.",
       "founder": {
         "@id": "https://ian-vincent-rebuta-portfolio.vercel.app/#person"

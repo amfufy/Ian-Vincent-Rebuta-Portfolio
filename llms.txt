@@ -4,7 +4,7 @@
 
 - Website: https://ian-vincent-rebuta-portfolio.vercel.app/
 - Book a free 30-minute call: https://calendly.com/ianrebuta/30min
-- Practice: Pvblicly, remote operations team (https://amfufy.github.io/pvblicly/)
+- Practice: Pvblicly, remote operations team (https://pvblicly.vercel.app/)
 - GitHub: https://github.com/amfufy
 
 ## Pages
@@ -38,7 +38,7 @@
 - Kusog Fit Quest, a game-style fitness web app: https://amfufy.github.io/kusog/
 - Elise & Gabriel digital wedding invitation: https://amfufy.github.io/elise-and-gab/
 - Keys to Wealth community event page for Home Match by Syndie.
-- Pvblicly website: https://amfufy.github.io/pvblicly/
+- Pvblicly website: https://pvblicly.vercel.app/
 
 ## Tools
 Google Workspace, Microsoft Office, Slack, Calendly, Notion, Confluence, Dropbox, Monday.com, Salesforce, GoHighLevel, Real Geeks, Zendesk, Gorgias, Vonage, Mailchimp, GoKaizn, Meta Business Suite, Canva, CapCut, Photoshop, FFmpeg, HTML/CSS/JavaScript, GitHub, Vercel, Claude Code, Google AI Studio, Zapier, Google Apps Script, ChatGPT, Gemini.

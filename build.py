@@ -73,7 +73,7 @@ def sidebar(active):
     <p class="prof-handle">@amfufy · Bohol, PH</p>
     <div class="prof-links">
       <a href="https://github.com/amfufy" target="_blank" rel="noopener me" aria-label="GitHub">{GH}</a>
-      <a href="https://amfufy.github.io/pvblicly/" target="_blank" rel="noopener" aria-label="Pvblicly, my remote operations practice">{ico("globe")}</a>
+      <a href="https://pvblicly.vercel.app/" target="_blank" rel="noopener" aria-label="Pvblicly, my remote operations practice">{ico("globe")}</a>
       <a href="{BOOK}" target="_blank" rel="noopener" aria-label="Book a call on Calendly">{ico("book")}</a>
       <button type="button" class="theme-btn" aria-label="Switch light or dark mode">{ico("sun","sun")}{ico("moon","moon")}</button>
     </div>
@@ -344,7 +344,7 @@ contact_body = f'''<div class="wrap">
 <div class="contact-cards">
   <a class="w cc rv" href="{BOOK}" target="_blank" rel="noopener">{ico("book","cc-i")}<b>Book a free 30-min call</b><span>Pick a time on Calendly. No prep needed.</span>{ico("arrow","t-go")}</a>
   <button type="button" class="w cc open-chat rv">{CUP}<b>Ask Latte</b><span>Instant answers about my work, hours and rates.</span>{ico("arrow","t-go")}</button>
-  <a class="w cc rv" href="https://amfufy.github.io/pvblicly/" target="_blank" rel="noopener">{ico("globe","cc-i")}<b>Pvblicly</b><span>My remote operations practice.</span>{ico("arrow","t-go")}</a>
+  <a class="w cc rv" href="https://pvblicly.vercel.app/" target="_blank" rel="noopener">{ico("globe","cc-i")}<b>Pvblicly</b><span>My remote operations practice.</span>{ico("arrow","t-go")}</a>
   <a class="w cc rv" href="https://github.com/amfufy" target="_blank" rel="noopener me">{GH}<b>GitHub</b><span>The code behind my sites.</span>{ico("arrow","t-go")}</a>
 </div>
 <section id="faq" class="sub-sec"><div class="sec-head"><h2 class="rv">Questions people ask</h2><p class="rv">Short answers about who I am, what I do and how to work with me.</p></div>
