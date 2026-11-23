@@ -72,7 +72,7 @@ if (filters) {
     applyFilter(b.dataset.cat, true); history.replaceState(null, "", b.dataset.cat === "all" ? location.pathname : "#" + b.dataset.cat);
   });
   const fromHash = location.hash.slice(1), valid = $$("#filters button").map(b => b.dataset.cat);
-  applyFilter(valid.includes(fromHash) ? fromHash : "all");
+  applyFilter(valid.includes(fromHash) ? fromHash : "money");
   addEventListener("resize", moveThumb); document.fonts && document.fonts.ready.then(moveThumb);
 }
 

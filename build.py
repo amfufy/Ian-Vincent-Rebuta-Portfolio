@@ -248,8 +248,8 @@ home_body = f'''
       </article>
     </div>
 
-    <a class="tile t-proj rv" href="/projects">
-      <span class="t-h">{ico("work","t-ico")}<span><b>Projects</b><small>12 real projects, live links and videos.</small></span>{ico("arrow","t-go")}</span>
+    <a class="tile t-proj rv" href="/projects#money">
+      <span class="t-h">{ico("work","t-ico")}<span><b>Results</b><small>$4.7M in sales QA&#x27;d, 280+ leads, 90+ stays.</small></span>{ico("arrow","t-go")}</span>
       <span class="carousel browser"><span class="chrome"><i></i><i></i><i></i><span>live sites I built</span></span><span class="car">{carousel}</span></span>
     </a>
 
@@ -269,8 +269,8 @@ home_body = f'''
     <a class="tile t-about rv" href="/about">
       <span class="t-h">{ico("about","t-ico")}<span><b>About</b><small>Six years with US companies.</small></span>{ico("arrow","t-go")}</span>
       <span class="minis">
-        <span><b>6<small>yrs</small></b><em>with US teams</em></span><span><b>23</b><em>QA analysts led</em></span>
-        <span><b>10</b><em>social pages</em></span><span><b>97%</b><em>CSAT held</em></span>
+        <span><b>$4.7<small>M</small></b><em>phone sales QA&#x27;d</em></span><span><b>280<small>+</small></b><em>leads handled</em></span>
+        <span><b>90<small>+</small></b><em>cabin stays</em></span><span><b>6<small>yrs</small></b><em>with US teams</em></span>
       </span>
     </a>
 
@@ -289,7 +289,7 @@ home_ld = [website, webpage("ProfilePage","/","Ian Vincent Rebuta | Remote Ops, 
 work = strip_head(part("work.html"))
 proj_videos = [v for v in videos if "intro" not in v.get("@id","")]
 proj_body = f'''<div class="wrap">
-{page_head("Projects","Real projects you can open.","Websites, campaigns, reels and AI tools. Pick a lane, or see everything.",
+{page_head("Projects","Work that made clients money.","Sales, leads and bookings first. Then the sites, reels and AI tools behind them.",
   f'<a class="btn sun" href="{BOOK}" target="_blank" rel="noopener">Book a free call</a>')}
 {work}
 </div>'''
